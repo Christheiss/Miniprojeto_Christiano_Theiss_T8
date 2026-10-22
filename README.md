@@ -10,8 +10,6 @@ Realizar uma Análise Exploratória de Dados (AED) aplicada ao varejo utilizando
 
 ## Origem dos dados
 
-Base Varejo disponibilizada no Kaggle:
-
 https://www.kaggle.com/datasets/namespaiva/base-varejo/data
 
 Arquivo original utilizado: `Base Varejo.csv`.
@@ -32,8 +30,6 @@ Principais campos:
 - `PR_CAT`: categoria do produto.
 - `PR_NOME`: nome do produto.
 
-A unidade de análise é o registro da base, que não corresponde necessariamente a um cliente único ou a uma compra única.
-
 ## Limpeza e qualidade
 
 O diagnóstico identificou:
@@ -43,10 +39,6 @@ O diagnóstico identificou:
 - Nenhum texto vazio ou composto apenas por espaços nas colunas textuais verificadas.
 - 96.553 linhas duplicadas exatas.
 - 3.650 registros com `#N/D` na categoria do produto.
-
-Os textos foram padronizados com remoção de espaços nas extremidades e conversão para maiúsculas nas colunas categóricas selecionadas.
-
-As duplicatas foram mantidas porque não há informação suficiente para distinguir registros repetidos indevidos de itens repetidos em uma compra. Os registros `#N/D` também foram preservados por não haver confirmação de seu significado.
 
 ## Resultados
 
